@@ -1,0 +1,248 @@
+label.cfwr_pro_link {
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+img.cfwr_rating_div {
+    width: 100px;
+    vertical-align: middle;
+}
+img.customimag {
+    width: 235px;
+}
+.cfwr-tab-content{
+	display: none;
+}
+.cfwr-tab-content.cfwr-current{
+	display: block;
+}
+ul.tabs {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+    list-style: none;
+    margin-bottom: -1px;
+}
+li.tab-link {
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 500;
+    margin: 0px;
+    background-color: #2271b1!important;
+    color: #ffffff!important;
+    padding: 11px 20px 12px;
+    width: 150px;
+    text-align: center;
+    border: 1px solid #2271b1;
+    transition: .5s;
+    border-bottom: none;
+}
+li.tab-link.cfwr-current {
+    background-color: #ffffff!important;
+    color: #2271b1!important;
+}
+div.cfwr-tab-content {
+    padding: 10px;
+    background-color: white;
+    margin: 0px;
+    border: 1px solid #2271b1;
+    margin-bottom: 15px;
+    width: 95%;
+}
+table.data_table {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+}
+.cfwr-tab-content table.data_table tr th {
+    vertical-align: top;
+    text-align: left;
+    padding: 20px 10px 20px 10px;
+    width: 20%;
+    font-weight: 600;
+}
+.cfwr-tab-content table.data_table tr td {
+    vertical-align: top;
+    text-align: left;
+    padding: 20px 10px 20px 10px;
+    width: 50%;
+}
+a.cfwr_remove_field.button {
+    color: #ff2828;
+    border-color: #ff2828;
+}
+table.meta_box_table {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+}
+table.meta_box_table tbody tr th {
+    vertical-align: top;
+    text-align: left;
+    padding: 20px 10px 20px 0;
+    width: 200px;
+    line-height: 1.3;
+    font-weight: 600;
+}
+table.meta_box_table tbody tr td {
+    margin-bottom: 9px;
+    padding: 15px 10px;
+    line-height: 1.3;
+    vertical-align: middle;
+}
+.custom_field_option_inner table tbody tr td {
+    margin-bottom: 9px;
+    padding: 0;
+    line-height: 1.3;
+    vertical-align: middle;
+}
+span.custom_add_options, span.custom_remove_options {
+    cursor: pointer;
+}
+div.cfwr_add_new_fields_inner {
+    border: 2px dotted #bdbdbd;
+    padding: 7px;
+    background: #efefef;
+    cursor: all-scroll;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 16px;
+}
+span.cfwr_label {
+    display: inline-flex;
+    width: 50%;
+}
+.submit_button input#cfwr-btn-space, .register_empty_fields a.add_field_button {
+    display: inline-flex;
+    padding: 5px 20px;
+    border-radius: 0px;
+}
+span.cfwr_checkbox {
+    display: inline-flex;
+    width: 50%;
+    text-align: right;
+    align-items: center;
+    justify-content: flex-end;
+}
+span.cfwr_checkbox input[type="checkbox"] {
+    margin: 0px !important;
+}
+img.remove_field {
+    width: 15px;
+    display: flex;
+    margin-left: 10px;
+}
+.cfwr_dl_data li:active div{
+    border: 2px dotted #2271b1;
+}
+span.cfwr_note, label.cfwr_add_field_options {
+    font-size: 16px;
+    font-style: italic;
+    letter-spacing: 1.2px;
+    font-weight: 500;
+}
+tr.custom_field_option_Label_main td {
+    padding: 0 0 10px 0 !important;
+}
+h2.registration-with-role {
+    padding: 20px;
+    margin: 0;
+}
+.cfwr_add_new_fields {
+    padding: 10px;
+}
+ul.cfwr_dl_data {
+    padding: 10px;
+}
+p.empty_register_fields {
+    color: #f00;
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+.register_empty_fields {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #f00;
+    border-radius: 5px;
+}
+p.cfwr_description {
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+    font-family: monospace;
+}
+
+
+/* ratting div css */
+.cfwr_rateus_notice, .cfwr_support_notice {
+    display: inline-block;
+    width: 45%;
+    float: left;
+    color: #fff;
+    background-color: #fb5f51;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+    height: 70px;
+}
+.cfwr_rtusnoti_left {
+    display: inline-block;
+    float: left;
+    width: 70%;
+}
+.cfwr_rtusnoti_right {
+    display: inline-block;
+    float: right;
+    text-align: right;
+}
+.cfwr_rateus_notice h3, .cfwr_support_notice h3 {
+    color: #fff;
+    margin: 0;
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+.cfwr_support_notice {
+    background-color: #2f3337;
+    margin-left: 2%;
+}
+img.cfwr_review_icon {
+    width: 50px;
+    height: auto;
+}
+.cfwr_donate_main {
+    background: #fff;
+    padding: 15px;
+    display: flex;
+    width: 94.6%;
+    border: 1px solid #e3bbac;
+    align-items: center;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+    margin-top: 15px;
+}
+.cfwr_donate_main img {
+    height: 32px;
+}
+.cfwr_donate_main > * {
+    margin: 0 15px 0 0;
+    vertical-align: middle;
+}
+.cfwr_rateus_notice label,.cfwr_support_notice label {
+    font-size: 16px;
+}
+.cfwr_rateus_notice a,.cfwr_support_notice a {
+    color: #fff;
+}
+.cfwr_ratess_open {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}

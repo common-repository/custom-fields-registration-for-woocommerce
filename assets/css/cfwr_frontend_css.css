@@ -1,0 +1,6 @@
+input[type="number"],input[type="date"] {
+	width: 100%;
+}
+table.form-table {
+    text-align: left;
+}
